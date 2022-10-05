@@ -1,203 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-
-  body {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #930086;
-    display: flex;
-    justify-content: center;
-  }
-
-  .name {
-  color: #fffffe;
-  display: flex;
-  justify-content: center;
-  font-family: fantasy;
-  font-size: 35px;
-}
-
-.banner {
-  display: flex;
-  justify-content: center;
-}
-
-.link {
-  background-color: #f9bc60;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  border-radius: 40px;
-}
-
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-  text-align: center;
-  flex-grow: 1;
-  font-family: fantasy;
-  font-size: 18px;
-}
-
-.items {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 640px;
-  flex-grow: 1;
-}
-
-
-  .banner-image {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 128px;
-  }
-
-  .thumbnail {
-  width: 70px;
-  height: 70px;
-  border-radius: 70px;
-  object-fit: cover;
-  }
-
-    .container {
-      padding: 10px;
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #930086;
       display: flex;
       justify-content: center;
     }
 
-    .text {
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
       font-family: fantasy;
+      font-size: 35px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 40px;
+    }
+
+    .link a {
+      color: #001e1d;
       text-decoration: none;
-      width: 50%
+      text-align: center;
+      flex-grow: 1;
+      font-family: fantasy;
+      font-size: 18px;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+
+    .banner-image {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 70px;
+      height: 70px;
+      border-radius: 70px;
+      object-fit: cover;
     }
 
   </style>
 </head>
+
 <body>
-  <!-- <div class="my_class">
-    Hello World
-  </div> -->
+
 
   <div class="items">
-  <div class="banner">
-    <img src="/headshot.jpg" alt="Beatrice K" class="banner-image">
+    <div class="banner">
+      <img src="/headshot.jpg" alt="Beatrice K" class="banner-image">
+    </div>
+
+    <div class="name">
+      Beatrice's Favorite Dessert Recipes
+    </div>
+
+    <div class="link">
+      <img src="/chocolate_chip_cookies.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/">Best Chocolate Chip
+        Cookie Recipe</a>
+    </div>
+
+    <div class="link">
+      <img src="/brownies.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://thestayathomechef.com/brownie-recipe/">Best Brownie Recipe</a>
+    </div>
+
+    <div class="link">
+      <img src="/cheesecake.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://sugarspunrun.com/best-cheesecake-recipe/">
+        Best Cheesecake Recipe</a>
+    </div>
+
+    <div class="link">
+      <img src="/apple_pie.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://natashaskitchen.com/apple-pie-recipe/">
+        Best Apple Pie Recipe</a>
+    </div>
+
+    <div class="link">
+      <img src="/nutella-cheesecake.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://www.lifeloveandsugar.com/nutella-cheesecake/">
+        Best Nutella Cheesecake Recipe</a>
+    </div>
+
+    <div class="link">
+      <img src="/crepe.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://www.theyellowtable.com/recipes/best-nutella-crepe-recipe">
+        Best Crepe Recipe</a>
+    </div>
   </div>
-
-  <div class="name">
-    Beatrice's Favorite Dessert Recipes
-  </div>
-  
-  <div class="link">
-    <img
-      src="/chocolate_chip_cookies.jpg" class="thumbnail">
-  
-    <a target="_blank" href="https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/">Best Chocolate Chip Cookie Recipe</a>
-  </div>
-  
-  <div class="link">
-    <img src="/brownies.jpg" class="thumbnail">
-  
-    <a target="_blank"
-      href="https://thestayathomechef.com/brownie-recipe/">Best Brownie Recipe</a>
-  </div>
-  
-  <div class="link">
-    <img
-      src="/cheesecake.jpg" class="thumbnail">
-  
-    <a target="_blank" href="https://sugarspunrun.com/best-cheesecake-recipe/">
-      Best Cheesecake Recipe</a>
-  </div>
-
-  <div class="link">
-    <img
-      src="/apple_pie.jpg" class="thumbnail">
-  
-    <a target="_blank" href="https://natashaskitchen.com/apple-pie-recipe/">
-      Best Apple Pie Recipe</a>
-  </div>
-
-  <div class="link">
-    <img
-      src="/nutella-cheesecake.jpg" class="thumbnail">
-  
-    <a target="_blank" href="https://www.lifeloveandsugar.com/nutella-cheesecake/">
-      Best Nutella Cheesecake Recipe</a>
-  </div>
-
-  <div class="link">
-    <img
-      src="/crepe.jpg" class="thumbnail">
-  
-    <a target="_blank" href="https://www.theyellowtable.com/recipes/best-nutella-crepe-recipe">
-      Best Crepe Recipe</a>
-  </div>
-</div>
-
-<!-- 
-  <div class="container">
-    <img class="image" src="/chocolate_chip_cookies.jpg" width="300">
-  <a href="https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/" class="text">
-    Best Chocolate Chip Cookie Recipe
-  </a>
-</div>
-
-  <br>
-
-  <div class="container">
-    <img class="image" src="/brownies.jpg" width="300">
-  <a href="https://thestayathomechef.com/brownie-recipe/" class="text">
-    Best Brownie Recipe     
-  </a>
-</div>
-
-  <br>
-
-  <div class="container">
-  <a href="https://sugarspunrun.com/best-cheesecake-recipe/" class="text">
-    Best Cheesecake Recipe     
-    <img class="image" src="/cheesecake.jpg" width="300">
-  </a>
-</div>
-
-  <br>
-
-  <div class="container">
-  <a href="https://natashaskitchen.com/apple-pie-recipe/" class="text">
-    Best Apple Pie Recipe
-    <img class="image" src="/apple_pie.jpg" width="300">
-  </a>
-</div>
-
-  <br>
-
-  <div class="container">
-  <a href="https://www.lifeloveandsugar.com/nutella-cheesecake/" class="text">
-    Best Nutella Cheesecake Recipe
-    <img class="image" src="/nutella-cheesecake.jpg" width="300">
-  </a>
-</div>
-
-  <br>
-
-  <div class="container">
-  <a href="https://www.theyellowtable.com/recipes/best-nutella-crepe-recipe" class="text">
-    Best Crepe Recipe
-    <img class="image" src="/crepe.jpg" width="300">
-  </a>
-</div>
-
-  <br> -->
-
 
 </body>
+
 </html>
